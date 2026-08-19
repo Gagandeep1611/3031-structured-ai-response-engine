@@ -7,11 +7,12 @@ authors = [
     { name = "gagandeep1611", email = "gagandeep161198@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
-
-[project.scripts]
-3031-structured-ai-response-engine = "3031_structured_ai_response_engine:main"
-
-[build-system]
-requires = ["uv_build>=0.12.3,<0.13.0"]
-build-backend = "uv_build"
+dependencies = [
+    "black>=26.5.1",
+    "fastapi>=0.141.1",
+    "isort>=8.0.1",
+    "openai>=3.3.0",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.3",
+    "uvicorn[standard]>=0.52.4",
+]
