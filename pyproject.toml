@@ -1,0 +1,17 @@
+[project]
+name = "3031-structured-ai-response-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gagandeep1611", email = "gagandeep161198@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+3031-structured-ai-response-engine = "3031_structured_ai_response_engine:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
